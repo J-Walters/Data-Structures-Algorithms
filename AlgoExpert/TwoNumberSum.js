@@ -15,7 +15,7 @@ output
 [-1, 11]
 */
 
-//O(n) time | O(n) space
+//O(n ^ 2) time | O(n) space
 function twoNumberSum(array, targetSum) {
     const result = []
       for(let i = 0; i < array.length; i++) {
@@ -28,7 +28,7 @@ function twoNumberSum(array, targetSum) {
       return result
   }
 
-
+//hash table/dictionary
 //O(n) time | O(n) space
 function twoNumberSum(array, targetSum) {
     const nums = {}
